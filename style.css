@@ -1,0 +1,39 @@
+body {
+  background: url(images/46c75b4946f2e980906d7e7aa033591c.jpg);
+}
+
+.form-container {
+  background: black;
+  border-radius: 10px;
+}
+
+input:invalid {
+  border-color: #dc3545;
+}
+
+input:valid {
+  border-color: #198754;
+}
+.form-container {
+  background: url(images/46c75b4946f2e980906d7e7aa033591c.jpg);
+  backdrop-filter: blur(7px);
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.fa-square-twitter {
+  font-size: 40px;
+  color: blue;
+}
+.fa-facebook {
+  font-size: 40px;
+  color: blue;
+}
+.fa-google {
+  font-size: 40px;
+}
+.fa-apple {
+  font-size: 40px;
+}
